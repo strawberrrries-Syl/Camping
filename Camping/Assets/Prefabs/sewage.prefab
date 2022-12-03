@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 367577190399203536}
   - component: {fileID: 37048379566485211}
   - component: {fileID: 5039448017959478896}
+  - component: {fileID: 881664354699802601}
   m_Layer: 0
   m_Name: sewage
   m_TagString: Sewage
@@ -106,3 +107,29 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!61 &881664354699802601
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7311062905459555832}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.36490202, y: -0.06129992}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 13.53, y: 2.17}
+    newSize: {x: 13.53, y: 2.17}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 10.819308, y: 1.4976795}
+  m_EdgeRadius: 0
